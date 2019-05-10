@@ -1,0 +1,11 @@
+# Install rpm
+rpm -ivh <*.rpm>
+  
+# Changelog
+rpm -q --changelog utils
+
+# Installed files
+rpm -ql utils
+
+# Uninstall rpm
+rpm -e utils
