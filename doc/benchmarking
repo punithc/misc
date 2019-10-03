@@ -1,0 +1,13 @@
+Benchmarking
+
+fio
+
+* sysbench
+    sysbench fileio --file-total-size=150G prepare
+    sysbench fileio --file-total-size=150G --file-test-mode=rndrw --init-rng=on --max-time=300 --max-requests=0 run
+    
+
+Additional Info:
+    https://haydenjames.io/linux-benchmark-scripts-tools/
+    https://github.com/haydenjames/bench-scripts/blob/master/README.md
+    https://haydenjames.io/
